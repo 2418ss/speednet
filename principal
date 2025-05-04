@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SpeedNet Telecom</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Header -->
+  <header class="bg-purple-700 text-white p-4 shadow-md">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">SpeedNet Telecom</h1>
+      <a href="https://wa.me/55SEUNUMEROAQUI" target="_blank" class="bg-white text-purple-700 px-4 py-2 rounded-lg font-semibold">Fale Conosco</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-purple-800 text-white py-20 text-center">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-4xl font-bold mb-4">Internet 100% Fibra Óptica em Resende</h2>
+      <p class="text-lg mb-6">Conexão rápida, estável e com suporte humanizado. Chega de internet ruim!</p>
+      <a href="#planos" class="bg-white text-purple-800 px-6 py-3 rounded-full font-bold">Conheça nossos planos</a>
+    </div>
+  </section>
+
+  <!-- Diferenciais -->
+  <section class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-10 text-center">
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Alta Velocidade</h3>
+        <p>Planos de até 500 Mega para navegar, jogar e trabalhar sem travar.</p>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Suporte Humanizado</h3>
+        <p>Atendimento de verdade, com gente que se importa com você.</p>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Estabilidade</h3>
+        <p>Sinal firme, sem quedas, com monitoramento 24h.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Planos -->
+  <section id="planos" class="py-16 bg-gray-100">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-10">Nossos Planos</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h3 class="text-xl font-bold mb-2">200 Mega</h3>
+          <p class="text-gray-600 mb-4">Ideal para redes sociais e vídeos</p>
+          <p class="text-2xl font-bold mb-4">R$ 89,90/mês</p>
+          <a href="https://wa.me/55SEUNUMEROAQUI" target="_blank" class="bg-purple-700 text-white px-4 py-2 rounded">Assinar</a>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h3 class="text-xl font-bold mb-2">500 Mega</h3>
+          <p class="text-gray-600 mb-4">Streaming, home office e games</p>
+          <p class="text-2xl font-bold mb-4">R$ 99,90/mês</p>
+          <a href="https://wa.me/55SEUNUMEROAQUI" target="_blank" class="bg-purple-700 text-white px-4 py-2 rounded">Assinar</a>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h3 class="text-xl font-bold mb-2">700 Mega</h3>
+          <p class="text-gray-600 mb-4">Alta performance e múltiplos dispositivos</p>
+          <p class="text-2xl font-bold mb-4">R$ 119,90/mês</p>
+          <a href="https://wa.me/55SEUNUMEROAQUI" target="_blank" class="bg-purple-700 text-white px-4 py-2 rounded">Assinar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-purple-900 text-white py-6 mt-10">
+    <div class="max-w-7xl mx-auto text-center">
+      <p>&copy; 2025 SpeedNet Telecom LTDA - Todos os direitos reservados</p>
+      <p>Avenida do Contorno, 285 B – Morada da Barra – Resende/RJ</p>
+    </div>
+  </footer>
+</body>
+</html>
